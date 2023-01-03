@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 850px;
+    opacity: 0.6;
+} */
+
+body {
+    background: url(./img/pexels-leah-kelley-3935702\ \(1\).jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 850px;
+}
+
+nav ul {
+    position: relative;
+    background: #323232;
+    display: flex;
+    box-shadow: 0 0 25px 14px #0D7797;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 25px;
+    display: inline-flex;
+    text-transform: uppercase;
+}
+
+nav ul:hover li a {
+    color: #5F5F5F;
+}
+
+nav ul li:hover a {
+    color: #000000;
+    background: #FFFFFF;
+    transition: 1.2s;
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: left 1.5s;
+}
+
+nav ul li a:hover::before {
+    left: 50%;
+    width: 1800px;
+    height: 1800px;
+    
+}
+
+nav ul li:nth-child(1) a::before {
+    background: url(./img/NY.jpg);
+    background-size: cover;
+    opacity: 100;
+}
+
+nav ul li:nth-child(2) a::before {
+    background: url(./img/Paris.jpg);
+    background-size: cover;
+    opacity: 1;
+}
+nav ul li:nth-child(3) a::before {
+    background: url(./img/London.jpg);
+    background-size: cover;
+}
+nav ul li:nth-child(4) a::before {
+    background: url(./img/Berlin.jpg);
+    background-size: cover;
+}
+nav ul li:nth-child(5) a::before {
+    background: url(./img/Kiev.jpg);
+    background-size: cover;
+}
+
+nav ul li:nth-child(6) a::before {
+    background: url(./img/Rome.jpg);
+    background-size: cover;
+}
+
+
+
+
+/* section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( 45deg,#AC855A, #DFCF9C );
+    padding: 20px;
+}
+
+section .content {
+    position: relative;
+    max-width: 800px;
+}
+
+section .content img {
+    width: 100%;
+    height: 500px;
+    display: block;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 12px;
+    margin-left: 3px;
+    color: #1c1c1b;
+}
+
+a {
+    position: relative;
+    padding: 10px 35px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    background: rgb(115, 3, 3);
+    border-radius: 4px;
+
+}
+
+a:hover {
+    background: rgb(87, 12, 12);
+} */
